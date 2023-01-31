@@ -31,3 +31,9 @@ window.onload=()=>{
     }
 };
 
+//minify JavaScript
+$url = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js";
+echo minify(file_get_contents($url));
+minify HTML
+$url = "https://mjrocks3099.github.io/tour/";
+
