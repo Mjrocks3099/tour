@@ -1,5 +1,5 @@
 <?php
-function minify($content, $path = '') {
+function minify($content, $path = 'https://github.com/Mjrocks3099/tour') {
 $output = preg_replace(
 array(
 '/ {2,}/',
